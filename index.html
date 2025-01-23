@@ -1,4 +1,96 @@
-<!--bundle exec jekyll serve-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website">
+  <title>Aylin Gunal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2em;
+      color: #333;
+    }
+
+    p {
+      margin-top: 15px;
+      font-size: 1em;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    .links {
+      margin-top: 20px;
+      font-size: 1em;
+      color: #0073b1; /* LinkedIn color */
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #0073b1;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .links a:hover {
+      color: #005582;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="picofme.jpg" alt="Your Name" class="profile-img">
+    <h1>Aylin Gunal</h1>
+    <p>UMich B.S. Data Science 2017, M.S. Computer Science and Engineering 2024. 
+      Previously a Data & AI Architect at Microsoft, currently an incoming Applied Scientist at Qualtrics. 
+      Broadly interested in NLP. </p>
+      <div class="links">
+        <p><a href="www.linkedin.com/in/aylin-gunal-82179914a" target="_blank">LinkedIn</a>|| 
+          <a href="https://scholar.google.com/citations?user=fIs1cBsAAAAJ&hl=en" target="_blank">Google Scholar</a>||
+          <a href="https://www.goodreads.com/user/show/97094580-aylin" target="_blank">Goodreads</a></p>
+      </div>
+  </div>
+
+
+</body>
+</html>
+
+
+
+<!-- bundle exec jekyll serve
 
 <!DOCTYPE html>
 <html>
@@ -18,7 +110,7 @@ img.resize {
   max-width:25%;
   max-height:25%;
 }
-  </style>
+</style>
 </head>
   <body>
     <div style="margin:auto;width: 50%;top: 50%;left: 50%;padding-top: 10%;padding-bottom: 10%;">
@@ -33,8 +125,8 @@ img.resize {
                 Currently, I'm a M.S. in Computer Science student @ UMich 
                 doing research in the 
                 <a href="https://lit.eecs.umich.edu/index.html">LIT Lab</a>; 
-                check my <a href="https://scholar.google.com/citations?user=fIs1cBsAAAAJ&hl=en">Google Scholar</a> here, and preprints 
-                for 2023-24 projects will be posted soon! 
+                check my <a href="https://scholar.google.com/citations?user=fIs1cBsAAAAJ&hl=en">Google Scholar</a> here.
+
             </p>
             <p>
                 <a href="https://www.linkedin.com/in/aylin-gunal-82179914a/">
@@ -53,56 +145,9 @@ img.resize {
             </p>
             </p>
         </span>
-        <!-- <h2>Current</h2> -->
-        <!-- <ul>
-          <li>Collaboration with the Lifelong Learning Lab to further develop
-            methods towards virtual meeting summarization.
-          </li>
-          <li>Collaboration with the School of Public Health to derive insights 
-            from counseling dialogues of multiple languages.
-          </li>
-          <li>
-            Graduate student instructor for EECS 486 in W23.
-          </li>
-        </ul>
-        <h2>Previous</h2>
-        <ul>
-          <li>"Understanding the role of questions on mental health support-seeking
-            forums" will appear at W3PHIAI-23, February 13th-14th 2023.
-          </li>
-        </ul> -->
     </div>
 
-<!-- 
-    <script>
-        function expandSection(this) {
-            return p1 * p2;   // The function returns the product of p1 and p2
-        }
-        var allSpan = document.getElementsByTagName('span');
-        
-        for(var x = 0; x < allSpan.length; x++)
-        {
-            allSpan[x].onclick=function()
-            {
-                if(this.parentNode)
-                {
-                    var childList = this.parentNode.getElementsByTagName('LI');
-                    for(var y = 0; y< childList.length;y++)
-                    {
-                        var currentState = childList[y].style.display;
-                        if(currentState=="none")
-                        {
-                            childList[y].style.display="block";
-                        }
-                        else
-                        {
-                            childList[y].style.display="none";
-                        }
-                    }
-                }
-            }
-        }
-        </script> -->
+
 
   </body>
-</html>
+</html> -->
